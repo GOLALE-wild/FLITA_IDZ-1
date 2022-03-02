@@ -8,7 +8,7 @@ void perevod(int a) {
         a = a / 2;
     }
     for (k; k > 0; k--) {
-        printf("%d", dvoich[k]);
+        printf("%d", dvoich[k - 1]);
     }
 }
 int main(void) {
